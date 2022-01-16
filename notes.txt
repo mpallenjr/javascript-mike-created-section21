@@ -118,3 +118,12 @@ in type coercion the + operator is used to automatically convert an integer to a
 
 
 \\\\\\\\\\
+
+Section 21 - Truthy and Falsy values
+
+5 falsy values :
+0, '', undefined, null, NaN
+
+Everything else is true
+
+so when using a boolean function, that is how the result is determinesd. 

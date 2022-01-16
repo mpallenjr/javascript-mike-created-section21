@@ -194,3 +194,29 @@ console.log('23' * '2')
 console.log('23' / '2')
 //The multiply and divide operators automatically convert to integers because that is the only way they can be used.
 */
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Mike'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+// the conversion is always implicite, not explicite, so the Boolean function is very rarely used.  It was used in this case for the understanding of truthy and falsy concepts. 
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all!");
+} else {
+  console.log('You should get a job!');
+}
+// live example of truthy/falsy
+
+let height = 10;
+if(height) {
+  console.log('YAY! Height is defined');
+} else {
+  console.log('Height is UNDEFINED')
+}
+// another example, but head to using a ZERO for the height. will retunr false(UNDEFINED).
+
+
